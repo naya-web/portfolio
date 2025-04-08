@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import SectionTitle from "../allComponents/SectionTitle/SectionTitle";
 import { useTranslation } from "react-i18next";
-import "./contactStyle.css";
+import "./ContactStyle.css";
 import contact from "../../assets/email3.svg";
 
 const Contact = () => {
