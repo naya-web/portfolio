@@ -1,0 +1,50 @@
+:root {
+  /* --main-light-color: rgb(255, 182, 193);
+  --font-color: rgb(121 114 114 / 85%);
+
+  --main-dark-color: red;
+  --font-dark-color: rgba(165, 157, 157, 0.4); */
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+.row > * {
+  padding: 0;
+}
+
+/* Light mode variables */
+[data-bs-theme="light"] {
+    --main-color: rgb(220 144 155);
+    --font-color: rgb(121 114 114 / 85%);
+    --sidebar-bg: #F5F5F5;
+    --home-section-overlay: rgb(255 255 255 / 90%);
+    --download-btn-bg: #fff;
+    /* --demo-modal-btn-color: #000; */
+
+}
+
+/* Dark mode variables */
+[data-bs-theme="dark"] {
+    /* --main-color: #ec6c6c; */
+    /* --main-color: #27b489; */
+    --main-color: #f49852;
+    /* --main-color: #ecaf6c; */
+    --font-color: #ffffffcf;
+    /* --sidebar-bg: #00000030; */
+    --sidebar-bg: #1B1E21;
+    --home-section-overlay: rgb(0 0 0 / 89%);
+    --download-btn-bg: transparent;
+    /* --demo-modal-btn-color: #fff; */
+  
+}
+.py-70{
+  padding-block: 70px;
+}
+[dir="rtl"] {
+  text-align: right;
+}

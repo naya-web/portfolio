@@ -1,0 +1,67 @@
+{
+  "about": "About Me",
+  "description": "Ceci est une application React avec traduction.",
+  "header": {
+    "title": "Full Stack Dev",
+    "subtitle": "Ceci est la section d'en-tête"
+  },
+  "footer": {
+    "text": "© 2023 Mon application. Tous droits réservés."
+  },
+  "sidebar": {
+    "about_me": "About Me",
+    "services": "Services",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact",
+    "copyright": "Copyright © 2025 All Rights Reserved",
+    "designed": "Designed by Naya Al Naqula"
+  },
+  "home_section": {
+    "hello": "Hello I am",
+    "name": "NAYA AL NAQULA",
+    "job": "Full Stack Developer",
+    "description": "I am a dedicated and innovative full stack developer with a passion for building dynamic and responsive web applications. With expertise in both front-end and back-end technologies, I thrive on transforming ideas into functional and user-friendly solutions.",
+    "download": "Download CV"
+  },
+  "services": {
+    "title": "Services",
+    "description": "I provide tailored solutions to help you achieve your goals.Let’s bring your ideas to life",
+    "ui_ux": "UI/UX",
+    "ui_ux_description": "Create intuitive and user-friendly interfaces through user research, wireframing, prototyping, and visual design for a seamless experience. using <strong> Figma </strong>.",
+    "front_end": "Front End",
+    "front_end_description": "Build responsive, interactive web applications using <strong> HTML </strong>, <strong> CSS </strong>, <strong> JavaScript </strong>, <strong> Bootstrap </strong> and <strong> React </strong> ensuring compatibility across devices and browsers.",
+    "back_end": "Back End",
+    "back_end_description": "Develop scalable server-side applications, focusing on database management, API development, and secure data handling using <strong> Laravel </strong>."
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "Discover some of my previous works",
+    "demo": "Demo",
+    "details": "Details",
+    "append": "Append Project",
+    "golf": "Golf Project",
+    "grand_coffy": "Grand Coffe Project",
+    "flex_start": "Flex Start Project",
+    "spotify": "Spotify Project",
+
+    "append_description": "I recreated the Append template (originally from BootstrapMade) as a training project to master modern front-end development. This responsive template is designed for startups, apps, and digital services, clean layouts, and optimized performance.",
+    "golf_description": "A clean, modern Bootstrap 5 template, built from scratch as a training project. Focused on responsive design, performance, and user-friendly interactions. Demonstrates my ability to transform UI designs into functional websites",
+    "grand_coffe_description": "I recreated the Grand Coffee template as a training project to master food-industry web design. This responsive template is ideal for coffee shops, featuring warm visuals, menu displays, and reservation functionality.",
+    "luxary_description": "I developed the LuxuryHotel template as a training project to master high-end hospitality web design. This responsive template emphasizes elegance and functionality, featuring room galleries, booking systems, and immersive visuals.",
+    "flexStart_description": "Upgraded the Flex Start template into an interactive website with CRUD functionality, using React and JSON Server to simulate real API workflows. Demonstrates my ability to integrate frontend UIs with backend logic.",
+    "spotify_description": "A dynamic dashboard that connects to Spotify’s API to visualize a user’s listening habits. Displays personalized statistics like top artists, tracks, and albums across multiple time ranges, also visualize an artist's statistics like top songs across multiple time ranges, with interactive filters.",
+    "technologies": "Technologies Used",
+    "visit_site": "Visit Site"
+  },
+  "skills": {
+    "title": "Skills",
+    "problem_solving": "Problem Solving",
+    "effictive_communication": "Effictive Communication",
+    "ًwork_under_pressure": "ًWork Under Pressure"
+  },
+  "contact": {
+    "title": "Contact Me",
+    "description": "Open to new opportunities, collaborations, or just a chat! Reach out for projects, feedback, or a simple hello."
+  }
+}

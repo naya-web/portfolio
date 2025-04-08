@@ -1,0 +1,96 @@
+.contact {
+  /* background-color: #f8f9fa;
+  padding: 70px 0; */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+label {
+  font-weight: 500;
+  color: var(--font-color);
+  margin-bottom: -10px;
+}
+
+input,
+textarea {
+  padding: 7px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  width: 100%;
+  box-sizing: border-box;
+  /* background-color: #fff; */
+}
+
+input:focus,
+textarea:focus {
+  border-color: var(--main-color);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+textarea {
+  min-height: 150px;
+  resize: vertical;
+  font-family: inherit;
+}
+
+.contact button {
+  background-color: transparent;
+  border: 1px solid var(--main-color);
+  color: var(--font-color);
+  padding: 12px 25px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: fit-content;
+  margin-top: 10px;
+}
+
+.contact button:hover {
+  background-color: var(--main-color);
+}
+
+/* Success/Error message styling (optional) */
+.alert {
+  padding: 10px 15px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  display: none; /* Hidden by default */
+}
+
+.alert.success {
+  background-color: var(--font-color);
+  color: #155724;
+  display: block;
+}
+
+.alert.error {
+  background-color: var(--font-color);
+  color: #721c24;
+  display: block;
+}
+
+.contact .contact-img{
+    width: 70%;
+    margin: auto;
+}
+.contact-form{
+    overflow: hidden;
+}
+.contact-img-container{
+    overflow: hidden;
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .contact button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,70 @@
+.home-section{
+    /* height: 100vh; */
+    position: relative;
+    /* background-color: #777; */
+    background-image: url(../../assets/5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* filter: opacity(0.5); */
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    justify-content: center;
+    text-align: center;
+    z-index: 999;
+}
+.home-section::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--home-section-overlay); /* Black overlay with 50% opacity */
+    z-index: 1; /* Ensure overlay is on top */
+}
+.home-section .overlay{
+    position: relative;
+    z-index: 3333;
+}
+.home-section .home-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.home-section .home-content h1{
+    color: var(--main-color);
+}
+.home-section .home-content p{
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--font-color);
+}
+.home-section .profile-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.home-section .download-cv{
+    border: none;
+    background: none;
+}
+.home-section .download-cv a{
+    color: var(--font-color);
+    border: 1px solid var(--main-color);
+    border-radius: 31px;
+    background-color: var(--download-btn-bg);
+    padding: 8px 25px;
+    font-size: 19px;
+    font-weight: 500;
+    transition: .3s;
+    text-decoration: none;
+}
+
+.home-section .download-cv a:hover{
+    background-color: var(--main-color);
+    color: #fff;
+    transition: .3s;
+}
